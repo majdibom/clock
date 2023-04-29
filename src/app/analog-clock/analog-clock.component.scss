@@ -1,9 +1,17 @@
+.clock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .analog-clock {
   position: relative;
   width: 12.5rem;
   height: 12.5rem;
-  background-color: #3d3d3d;
   border-radius: 50%;
+  background-color: #4d4d4d;
   box-shadow: 0 0 0.625rem 0.125rem rgba(0, 0, 0, 0.2);
 
   .hand {
@@ -36,8 +44,8 @@
     transform: translate(-50%, -50%);
     width: 0.875rem;
     height: 0.875rem;
-    background-color: #f44336;
     border-radius: 50%;
+    background-color: #f44336;
     box-shadow: 0 0 0.1875rem rgba(0, 0, 0, 0.3);
 
     &:after {
@@ -48,8 +56,8 @@
       transform: translate(-50%, -50%);
       width: 0.5rem;
       height: 0.5rem;
-      background-color: #fff;
       border-radius: 50%;
+      background-color: #fff;
     }
   }
 }
